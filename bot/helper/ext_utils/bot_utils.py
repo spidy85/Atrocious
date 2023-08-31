@@ -182,9 +182,9 @@ def get_readable_message():
                 up_speed += float(spd.split('M')[0]) * 1048576
     msg += f"_______________________________"
     buttons = ButtonMaker()
-    buttons.ubutton(f"Repo", f"https://github.com/SN-Abdullah-Al-Noman/Atrocious_Mirror")
+    buttons.ubutton(f"Repo", f"https://github.com/")
     buttons.ibutton("Refresh", "status ref")
-    buttons.ubutton(f"Group", f"https://t.me/+yw0A-x4cYBphZmJl")
+    buttons.ubutton(f"Group", f"https://t.me/YourDemandZone")
     button = buttons.build_menu(3)
     if tasks > STATUS_LIMIT:
         buttons = ButtonMaker()
